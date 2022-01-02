@@ -1,0 +1,124 @@
+#header1 {
+    border: 5px solid black;
+    width: 100%;
+    height: 140px;
+    background-color: mediumspringgreen;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+}
+/* navagattion bar */
+#nav {
+    border: 5px solid black;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: lavender;
+    font-size: 20px;
+    padding-left: 5px;
+    text-decoration-color: white;
+    text-align: center;
+    font-family: "Verdana", "Arial Black", sans-serif;
+    box-sizing: border-box;
+    
+}
+/* content portion */
+#article {
+    border: 5px solid black;
+    background-color: turquoise;
+    width: calc(100% - 570px);
+    height: 650px;
+    margin-top: 5px;
+    padding-left: 6px;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+/* sidebar */
+#sidebar {
+    border: 5px solid black;
+    background-color: wheat;
+    width: 567px;
+    height: 650px;
+    overflow: auto;
+    overflow-x: hidden;
+    float: right;
+    margin-top: 5px;
+    margin-left: 1.20px;
+    padding: 0px 3px;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+
+#footer {
+    border: 5px solid black;
+    background-color: lavenderblush;
+    width: 100%;
+    margin-top: 5px;
+    height: 98px;
+    padding-left: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+/* logo */
+#img1{
+    border: 5px ridge black ;
+    width: 558.75px;
+    text-align: center;
+    background-color: lightslategrey;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+#img2{
+    position: relative;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* menu */
+.menu{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border:1px solid black;
+    background-color: teal;
+    margin-right: 2px;
+    box-sizing: border-box;
+    
+}
+
+#header2{
+    float: right;
+    
+}
+
+p{
+    text-decoration-color: white;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration-color: red;
+    
+}
+
+.menu:hover{
+    text-decoration-color: red;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 200px #ff96ad;
+}
+

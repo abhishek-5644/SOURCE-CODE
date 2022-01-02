@@ -1,0 +1,36 @@
+#Profile{
+    border: 3px ridge black;
+    width: 300px;
+    height: 80px;
+    padding-left: 10px;
+    text-align: center;
+}
+#Pi{
+border: 3px ridge black;
+width: 300px;
+height: 300px;
+margin-top: 5px;
+padding-left: 10px;
+position: relative;
+overflow: hidden;
+}
+
+#lname{
+    position: relative;
+    
+}
+
+legend{
+    text-align: center;
+}
+
+.buttons{
+    width: 300px;
+    height: 30px;
+    border: 3px ridge black ;
+    padding: 0px 5px;
+    padding-top: 7px;
+    margin-top: 5px;
+    text-align: center;
+    /* text-decoration-color: rgb(118, 233, 11); */
+}
