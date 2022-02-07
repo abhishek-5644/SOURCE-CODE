@@ -1,0 +1,225 @@
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+body{
+     margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    align-items: center;
+    height: 100px;
+    width: 1200px;
+}
+.buttons{
+    display: flex;  
+    align-items: center; 
+    box-sizing: border-box;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-1{
+    padding: 5px 10px;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    background-color: tomato;
+}
+
+.btn-2{
+    margin:0px 10px;
+    padding: 5px 10px;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    background-color: rgb(61, 241, 61);
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+    height: 50px;
+    align-items: center;
+    padding: 0px 5px;
+    background-color:grey ;
+    color: white;
+    width: 1200px;
+    box-sizing: border-box;
+    border-radius:0px 0px 8px 8px;
+}
+
+li{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#li-1{
+    margin-left: 150px;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: rgb(100, 98, 98);
+    font-size: 25px;
+}
+
+/* #content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+.clean{
+    width: 200px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.content-wrapper{
+    display: flex;
+    box-sizing: border-box;
+    margin:0px  17%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#category{
+    margin-left: 350px;
+    margin-top: 0px;
+    color: white;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin-left: 20%;
+    gap: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+#p-1{
+    background-color: darkgray;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#p-2{
+    background-color: darkgray;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#p-3{
+    background-color: darkgray;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#p-4{
+    background-color: darkgray;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#p-5{
+    background-color: darkgray;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#p-6{
+    background-color: darkgray;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#p-pre{
+    background-color: darkgray;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#p-next{
+     background-color: darkgray;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#ul-disclaimer{
+    display: flex;
+    background: rgb(49, 48, 48);
+    list-style: none;
+    justify-content: center;
+    font-size: 30;
+    height: 40px;
+    align-items: center;
+}
+
+.li-disclaimer{
+    margin-left: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
